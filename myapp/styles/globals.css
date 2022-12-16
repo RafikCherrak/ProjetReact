@@ -162,10 +162,8 @@ align-items: center;
 padding: 18px 12px 18px 16px;
 gap: 8px;
 margin-right: 24px;
-
 width: 343px;
 height: 60px;
-
 background: #F9F9F9;
 border-bottom: 2px solid #000000;
 border-radius: 8px 8px 0px 0px;
@@ -185,44 +183,46 @@ gap: 8px;
 
 width: 343px;
 height: 60px;
-
-/* gris/pâle */
-
 background: #F9F9F9;
-/* Principale/ Noir */
-
 border-radius: 8px 8px 0px 0px;
-
-/* Inside auto layout */
-
 flex: none;
 order: 0;
 align-self: stretch;
 flex-grow: 0;
-  }
+}
 
 
 
 #name_input {
+color: #C00000;
 border: 0px solid #F9F9F9;
 background: #F9F9F9;
-
-/* width: 343px;
-height: 60px; */
+height: 18px;
+width: 80%;
+font-size: 16px;
+margin-top: 23px;
+margin-left: -35px;
 }
 
 #prenom_input {
+color: #C00000;
 border: 0px solid #F9F9F9;
 background: #F9F9F9;
 line-height: 10px;
-
+height: 18px;
+width: 80%;
+font-size: 16px;
+margin-top: 23px;
+margin-left: -50px;
 }
 
 #name_label{
-  font-size: 14px;
+  font-size: 13px;
+  margin: -15px 0px 0px 0px;
 }
 #prenom_label{
   font-size: 13px;
+  margin: -15px 0px 0px 0px;
 }
 div#email_div.mail_phonenumber{
 box-sizing: border-box;
@@ -244,6 +244,12 @@ flex-grow: 0;
 #input_email{
 border: 0px solid #F9F9F9;
 background: #F9F9F9;
+height: 18px;
+margin-top: 21px;
+margin-left: -65px;
+width: 80%;
+color: #C00000;
+font-size: 16px;
 }
 
 label#email_label{
@@ -255,7 +261,7 @@ line-height: 0px;
 font-family: 'Abel';
 font-style: normal;
 line-height: 100px;
-padding: 18px 12px 18px 16px;
+padding: 0px 12px 18px 16px;
 }
 
 
@@ -281,13 +287,16 @@ padding: 0px 0px 0px 16px;
 input#phone_number_input{
 border: 0px solid #F9F9F9;
 background: #F9F9F9;
-width: 300px;
+/* width: 300px; */
 height: 18px;
 font-family: 'Abel';
 font-style: normal;
 line-height: 100px;
 color: #C00000;
-margin: 0;
+margin-top: 22px;
+margin-left: -325px;
+width: 80%;
+font-size: 16px;
 }
 
 .mail_phonenumber {
